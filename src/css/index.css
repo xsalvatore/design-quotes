@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* -------------------------------------------------- */
+
+div.app {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	font-family: "karla";
+	font-size: 16px;
+	line-height: 1.5;
+	padding: 3em 0;	
+	color: #333333;
+	background-color: paleturquoise;
+}
+
+/* -------------------------------------------------- */
+
+div.quote-wrapper {
+	min-height: 1em;
+	padding: 0 2em;
+	max-width: 768px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+section:first-of-type {
+	margin-bottom: 3rem;
+}
+/* -------------------------------------------------- */
+
+p.quote:before {
+	content: "''";
+	margin-right: 1em;
+}
+
+p.quote:after {
+	content: "''";
+	margin-left: 1em;
+}
+
+/* -------------------------------------------------- */
+
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 3rem;
+}
+
+p {
+	font-size: 1.33333em;
+}
+
+button  {
+	font-size: 1.33333em;
+	font-family: "karla";
+	font-weight: normal;
+	border: 0;
+	margin: 0;
+	background-color: white;
+	padding: .5em 1em;
+	display: block;
+	margin: 0 auto 1em;
+}
+
+button:last-of-type {
+	margin-bottom: 3rem;
+}
+button:hover {
+	cursor: pointer;
+}
+
+footer {
+	font-size: 1.33333em;
+	font-style: italic;
+	
+}
+
+footer a {
+	color: black;
+}
+
+/* -------------------------------------------------- */
